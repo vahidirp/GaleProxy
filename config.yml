@@ -1,0 +1,15 @@
+# config.yaml
+listeners:
+  - ip: "[::]"
+    port: "8080"
+users:
+  - username: "user1"
+    password: "$2a$10$YOUR_BCRYPT_HASH_HERE"
+tls_enabled: false
+tls_cert_file: "server.crt"
+tls_key_file: "server.key"
+dns_servers:
+  - "1.1.1.1:53"
+  - "8.8.8.8:53"
+max_connections: 1000
+timeout: 30
