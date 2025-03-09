@@ -12,6 +12,7 @@ COPY proxy.go ./
 RUN CGO_ENABLED=0 GOOS=linux go build -o galeproxy proxy.go
 
 FROM alpine:latest
+LABEL maintainer="github.com/vahidirp"
 RUN apk --no-cache add ca-certificates bash
 
 WORKDIR /root/
