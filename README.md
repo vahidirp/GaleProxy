@@ -111,8 +111,10 @@ curl --proxy http://user1:yourpassword@127.0.0.1:8080 http://example.com
 docker-compose down
 ```
 
-About
+**About**
+
 I'm not a professional GoLang programmer, so please excuse any mistakes I may have – it was designed to challenge my skills. The main purpose of writing this service is to be used to circumvent cruel sanctions and stupid filters.
 
-Contribution
+**Contribution**
+
 I warmly welcome contributions to GaleProxy! If you have ideas for improvements, bug fixes, or new features, feel free to open an issue or submit a pull request. Every contribution, big or small, helps make this project better. Let's build something great together! 🚀
